@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+body{
+
+background-color: black;
+
+color: rgb(255, 239, 122);
+
+animation-name: Animation ;
+
+animation-duration: 1s;
+
+
+}
+
+#Numero1{
+
+  color:rgb(105, 105, 223);
+  
+}
+
+#Numero2{
+
+color:rgb(105, 105, 223);
+
+
+}
+
+
+@keyframes Animation{
+
+
+from{  opacity: 0;
+    transform: translateX(-15px);}
+
+to{opacity: 1;
+    transform: translateX(0px);}
+
+
+
+
+}
+
+
+
+
+</style>
+<body>
+
+  <h1> Isso e uma calculadora, e não ela nao calcula a dor!, entendeu a piada? hehe</h1>
+
+
+  <input type="number" id="Numero1" value=""   placeholder="Digite o primeiro número"></input>
+
+  <input type="number" id="Numero2" value="" placeholder="Digite o segundo número"></input><br><br>
+
+  <button id="Botao1" type="button">Adição</button>
+
+<button id="Botao2" type="button">Subtração</button>
+
+<button id="Botao3" type="button">Multiplicação</button>
+
+<button id="Botao4" type="button">Potencialização</button>
+
+<button id="Botao5" type="button">Divisão</button>
+
+<div>
+  <h1>O resultado é <span id = "resultado"></span></h1>
+  <img id="img" src="https://pa1.narvii.com/6770/7af8fc39ec6e230c68c18bfcdb84b209f6b0d626_hq.gif">
+</div>
+
+
+    <script src="Atividade11(parte2).js"></script>
+</body>
+</html>

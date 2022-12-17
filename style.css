@@ -1,0 +1,74 @@
+body{
+
+   background-color: black;
+
+   color: yellow;
+
+    animation-name: Animation ;
+  
+    animation-duration: 2s;
+  
+      }
+  
+      #div2{
+  
+          animation-name: Animation ;
+  
+    animation-duration: 2s;
+  
+      }
+  
+      #nova_div{
+  
+          animation-name: Animation ;
+  
+  animation-duration: 2s;
+  
+  
+      }
+
+      #novo_h1{
+
+        animation-name: Animation ;
+  
+        animation-duration: 1s;
+
+      }
+
+      #div2{
+
+        animation-name: Animation ;
+  
+        animation-duration: 1s;
+
+
+      }
+  
+  
+  @keyframes Animation{
+  
+  
+  from{  opacity: 0;
+      transform: translateX(-15px);}
+  
+  to{opacity: 1;
+      transform: translateX(0px);}
+  
+  
+  
+  
+  }
+  
+  #nome{
+  
+  color: rgb(0, 0, 0);
+      
+  }
+
+  #idade{
+
+    color: rgb(0, 0, 0)
+
+
+  }
+ 
